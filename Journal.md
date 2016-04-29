@@ -126,3 +126,33 @@ but it will depend on the Java implementation.
 
 It seems I need to perform a clean before running Cobertura.  Failing to do so
 results in inflated line numbers in code paths.
+
+
+4/20/16
+
+Worked on my ExC2 presentation.  Not much to say.  Beamer needs better themes.
+
+
+### Week 14
+
+4/26/16
+4/27/16
+4/28/16
+
+Began work on Tome, have a basic prototype up.  Sure was hell to get there.
+Trouble keeps coming from the damndest places.  Hibernate may make portability
+(somewhat) simpler, but some things become less wieldly.  Spent 6 or so hours
+today fighting with log4j2 - my non-root logger refused to work.  Many hours
+digging through the log4j2 source code proved educational, but ultimately not
+fruitful.  In the end, the same exact settings I had been using in my
+properties file worked just fine with XML configuration.  JSON configuration
+failed to function in any capacity, despite installing the required
+dependencies.  I did not try YAML.
+
+At least Maven continues to be easy to use.  Installing Tome to the local
+repository and depending on in Scribe was a breeze.
+
+Found my old Android device, and my PunchTablet application has been coming in
+handy.  Manually calculating hours across strange timesplits was growing
+tedious.  Wish I'd completed the PC port, and I can see some additional
+functionality which I should have programmed in.  More work for the future...
