@@ -4,10 +4,10 @@ interface
 
 ### Note
 This is a wrapper project for
-[seer]http://github.com/mtrower/seer
-, [tome]http://github.com/mtrower/tome
-and [scribe]http://github.com/mtrower/scribe
-. Build script will be included so you only need to check this out and run it.
+[seer](http://github.com/mtrower/seer), 
+[tome](http://github.com/mtrower/tome) and
+[scribe](http://github.com/mtrower/scribe).
+Build script will be included so you only need to check this out and run it.
 
 ### Problem Statement
 Computer systems can at times seem opaque boxes.  Determining the state of
