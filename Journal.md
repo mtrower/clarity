@@ -135,9 +135,7 @@ Worked on my ExC2 presentation.  Not much to say.  Beamer needs better themes.
 
 ### Week 14
 
-4/26/16
-4/27/16
-4/28/16
+4/26/16 - 4/29/16
 
 Began work on Tome, have a basic prototype up.  Sure was hell to get there.
 Trouble keeps coming from the damndest places.  Hibernate may make portability
@@ -156,3 +154,21 @@ Found my old Android device, and my PunchTablet application has been coming in
 handy.  Manually calculating hours across strange timesplits was growing
 tedious.  Wish I'd completed the PC port, and I can see some additional
 functionality which I should have programmed in.  More work for the future...
+
+
+### Week 15
+
+5/2/16
+
+Completed the tome prototype and integrated it into scribe.  The mentioned refactor was merging redundant Reading code into the abstract Reading class (it was an interface before).
+
+5/7/16
+
+Merged more redundant code into another abstract class.  Brought scribe into continuous operation mode. Implemented failover protocol to automatically restart Gatherers in case of failure.  Scribblets try awfully hard to live and soldier on in the face of errors.
+
+
+### Week 16
+
+5/10/16
+
+Continuous operation uncovered a bug where a new gatherer process was forked on each read, introducing several performance pathologies - see scribe #10, #11.  I now silently ignore redundant calls to VMStatGatherer.open().
