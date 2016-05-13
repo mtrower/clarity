@@ -172,3 +172,16 @@ Merged more redundant code into another abstract class.  Brought scribe into con
 5/10/16
 
 Continuous operation uncovered a bug where a new gatherer process was forked on each read, introducing several performance pathologies - see scribe #10, #11.  I now silently ignore redundant calls to VMStatGatherer.open().
+
+5/11/16
+
+Dear Hibernate,
+
+Please go burn in a fire.
+
+
+Love,
+Matthew
+
+
+PS. Don't try to use Hibernate 4.x+ with TomEE.

@@ -25,3 +25,5 @@
 | 5/2/16  | Refactor tome. | 2 |   |  
 | 5/7/16  | Bring scribe into live operation mode.  Fix scribe #6.  Refactor scribe.  | 5.5 |   |  
 | 5/10/16  | Fix scribe #10, #11. | 3.5 |   |  
+| 5/11/16  | Battle Hibernate.  Develop seer to basic demo state. | 11 |   |  
+| 5/12/16  | Add some Javadoc | 1.5 |   |  
